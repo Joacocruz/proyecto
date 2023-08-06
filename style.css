@@ -1,0 +1,79 @@
+*{ 
+   margin: 0;
+   padding: 0; 
+}
+
+.body {
+    background-color: rgb(218, 168, 108);
+}
+.header
+{
+    background-color: rgb(125, 151, 224); 
+    height:290px ;
+}
+.nav {
+    list-style: none;
+    font-family: 'Lucida Sans';
+    font-size: 20px;
+    font-weight: bold; font-style: oblique;
+    line-height: 20px;
+    text-transform: lowercase;
+    color: aliceblue;
+}
+.main {
+    
+    height: auto;
+    background-color: rgb(218, 168, 108);
+    border-top: 2px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold; font-style: unset;
+
+}
+.aside{
+    
+    height: auto;
+    background-color: rgb(223, 87, 87);
+    border: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    font-style: normal;
+}
+.p{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold; font-style: italic;
+    line-height: 30px;
+}
+.footer{
+    width: unset;
+    height: 50px;
+    background-color: rgb(12, 11, 11);
+    
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold; font-style: normal;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: aliceblue;
+
+}
+.div {
+    width: 400px; height: 150;
+    background-color: rgb(194, 86, 86);
+    border: 4px dotted ;
+    padding: 40px;
+    margin: 50px;
+    display: inline-table; 
+}
+
+.div p {
+    display: table-cell;
+    vertical-align: bottom;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: lowercase;
+    color: rgb(95, 113, 128);
+}
